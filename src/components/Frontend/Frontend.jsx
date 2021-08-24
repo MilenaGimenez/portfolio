@@ -1,10 +1,8 @@
+import {Card, CardContent, CardMedia, Typography} from '@material-ui/core'
 
-import {Card, CardContent, CardMedia} from '@material-ui/core'
-import Typography from '@material-ui/core/Typography';
-
-const Welcome = () => {
+const Frontend = () => {
     return (
-      <div style={{ backgroundColor: '#368acf', display: 'flex', height: '100vh', alignItems: 'center'}} >    
+        <div style={{ backgroundColor: '#b036cf', display: 'flex', height: '100vh', alignItems: 'center'}} >    
         <Card style={{ width: '100%', height: '500px', margin: '2%'}}>
           <CardMedia
             component="img"
@@ -18,7 +16,7 @@ const Welcome = () => {
         <Card style={{ width: '100%', height: '100px', margin: '2%'}}>
           <CardContent> 
             <Typography gutterBottom variant="h5" component="h2">
-                ¡Hola! soy Milena Gimenez
+                ¡Hola! Estos son mis trabajos de frontend realizados
             </Typography>    
             <Typography variant="body3" color="textSecondary" component="p">
               Desarrolladora Web Front-end y Diseñadora Gráfica
@@ -29,4 +27,4 @@ const Welcome = () => {
     );
 };
 
-export default Welcome;
+export default Frontend;
