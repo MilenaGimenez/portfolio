@@ -1,28 +1,16 @@
-import {Card, CardContent, CardMedia, Typography} from '@material-ui/core'
+import {Icon} from '@material-ui/core'
+import './Footer.sass';
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: '#f0cf15', display: 'flex', height: '50%', alignItems: 'center'}} >    
-        <Card style={{ width: '100%', height: '500px', margin: '2%'}}>
-          <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            height="100%"
-            image="https://s1.eestatic.com/2020/10/26/como/flores-hogar-decoracion_531208808_163604389_1706x1280.jpg"
-            title="Contemplative Reptile"
-          />
-        </Card>
-
-        <Card style={{ width: '100%', height: '100px', margin: '2%'}}>
-          <CardContent> 
-            <Typography gutterBottom variant="h5" component="h2">
-                ¡Hola! Soy el footer.
-            </Typography>    
-            <Typography variant="body3" color="textSecondary" component="p">
-              Desarrolladora Web Front-end y Diseñadora Gráfica
-            </Typography>   
-          </CardContent>          
-        </Card>
+      <div className="footer-box">    
+        <h3 className="footer-title">Milena Gimenez</h3>
+        <h4 className="footer-subtitle">Diseño y desarrollo web</h4>
+        <section className="socialmedia-box">
+          <a href="https://www.linkedin.com/in/milena-gimenez/" target="blank"><Icon className="fab fa-linkedin" /></a>
+          <a href="mailto:milenanicolegimenez@gmail.com"><Icon className="fas fa-envelope" /></a>
+          <a href="https://wa.link/og8kpl" target="blank"><Icon className="fab fa-whatsapp" /></a>          
+        </section>
       </div>
     );
 };
