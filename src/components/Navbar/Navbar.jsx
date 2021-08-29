@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Typography variant="h6" className={classes.title}>
                     Milena Gimenez
                 </Typography>
-                <Button color="inherit">Sobre mí</Button> {/* que salga estudios y descargar cv */}
+                <Button color="inherit"><a href="#prueba">Sobre mí</a></Button> {/* que salga estudios y descargar cv */}
                 <Button color="inherit">Diseño Gráfico</Button>
                 <Button color="inherit">Frontend</Button>
                 <Button color="inherit">Contacto</Button>

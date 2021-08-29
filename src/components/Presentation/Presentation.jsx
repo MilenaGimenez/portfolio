@@ -3,13 +3,13 @@ import './Presentation.sass';
 
 const Presentation = () => {
     return (
-      <div style={{ display: 'flex', height: '100vh', alignItems: 'center', backgroundColor: '#ff9a28'}} >    
+      <div id="prueba" style={{ display: 'flex', height: '100vh', alignItems: 'center', backgroundColor: '#ff9a28'}} >    
       <Card style={{ width: '100%', height: '500px', margin: '2%', boxShadow: 'none'}}>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
           height="100%"
-          image="https://freedesignfile.com/upload/2019/08/Business-woman-at-the-desk-is-working-on-the-laptop-computer-vector.jpg"
+          image="https://media.istockphoto.com/vectors/photo-or-graphic-editor-on-computer-vector-illustration-flat-cartoon-vector-id1158180478?k=6&m=1158180478&s=612x612&w=0&h=9OTPMmYJthh7nendL0CX4k3OWnqB8V1XkPmdqXTlmB8="
           title="Contemplative Reptile"
         />
       </Card>
