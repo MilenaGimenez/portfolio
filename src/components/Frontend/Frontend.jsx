@@ -2,8 +2,7 @@ import {Card, CardContent, CardMedia, Typography, CardActionArea, Button, CardAc
 
 const Frontend = () => {  
   return (
-      <div style={{ backgroundColor: '#b036cf', display: 'flex', height: '100vh', alignItems: 'center'}} >    
-      <div style={{border: '2px solid orange', display: 'flex', margin: '30px', alignItems: 'center', width: '100%', flexWrap: 'wrap'}}>
+      <div style={{ backgroundColor: '#b036cf', alignItems: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap'}} >   
         <Card style={{maxWidth: 345, margin: '3rem'}}>
           <CardActionArea>
             <CardMedia
@@ -160,10 +159,12 @@ const Frontend = () => {
           </CardContent>
         </CardActionArea>
       </Card>
-      </div>
+      
     </div>
   );
 };
 
 export default Frontend;
 //image="/static/images/cards/contemplative-reptile.jpg"
+
+{/* <div style={{border: '2px solid orange', display: 'flex', margin: '30px', alignItems: 'center', width: '100%', flexWrap: 'wrap'}}> */}
