@@ -2,7 +2,10 @@ import {Card, CardContent, CardMedia, Typography, CardActionArea, Button, CardAc
 
 const Frontend = () => {  
   return (
-      <div style={{ backgroundColor: '#b036cf', alignItems: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap'}} >   
+    <div>
+      <h1 style={{textAlign: 'center', backgroundColor: '#b036cf', margin: 0, paddingTop: '3rem', color: 'white'}}>Mis trabajos de desarrollo web</h1>
+      <div style={{ backgroundColor: '#b036cf', alignItems: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap'}} >  
+        
         <Card style={{maxWidth: 345, margin: '3rem'}}>
           <CardActionArea>
             <CardMedia
@@ -159,8 +162,10 @@ const Frontend = () => {
           </CardContent>
         </CardActionArea>
       </Card>
-      
+
+      </div>
     </div>
+      
   );
 };
 
