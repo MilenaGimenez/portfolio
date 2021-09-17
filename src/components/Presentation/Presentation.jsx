@@ -3,7 +3,7 @@ import './Presentation.sass';
 
 const Presentation = () => {
     return (
-      <div id="prueba" style={{ display: 'flex', height: '100vh', alignItems: 'center', backgroundColor: '#ff9a28'}} >    
+      <div id="presentation" style={{ display: 'flex', height: '100vh', alignItems: 'center', backgroundColor: '#ff9a28'}} >    
       <Card style={{ width: '100%', height: '500px', margin: '2%', boxShadow: 'none'}}>
         <CardMedia
           component="img"
