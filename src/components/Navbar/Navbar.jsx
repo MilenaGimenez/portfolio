@@ -31,7 +31,6 @@ const Navbar = () => {
                     Milena Gimenez
                 </Typography>
                 <Button color="inherit"><a href="#presentation">Sobre mí</a></Button> {/* que salga estudios y descargar cv */}
-                <Button color="inherit">Diseño Gráfico</Button>
                 <Button color="inherit"><a href="#frontend">Frontend</a></Button>
                 <Button color="inherit">Contacto</Button>
                 </Toolbar>
