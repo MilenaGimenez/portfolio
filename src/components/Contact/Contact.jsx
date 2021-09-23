@@ -1,8 +1,10 @@
 import {Card, CardContent, CardMedia, Typography} from '@material-ui/core'
 
+import './Contact.sass';
+
 const Contact = () => {
     return (
-        <div style={{ backgroundColor: '#f01515', display: 'flex', height: '100vh', alignItems: 'center'}} >    
+        <div style={{ display: 'flex', height: '100vh', alignItems: 'center'}}  className="bg-contact" >    
         <Card style={{ width: '100%', height: '500px', margin: '2%'}}>
           <CardMedia
             component="img"
