@@ -1,10 +1,12 @@
 import {Card, CardContent, CardMedia, Typography, CardActionArea, Button, CardActions} from '@material-ui/core'
 
+import './Frontend.sass';
+
 const Frontend = () => {  
   return (
     <div id="frontend">
-      <h1 style={{textAlign: 'center', backgroundColor: '#b036cf', margin: 0, paddingTop: '3rem', color: 'white'}}>Mis trabajos de desarrollo web</h1>
-      <div style={{ backgroundColor: '#b036cf', alignItems: 'center', display: 'flex', alignItems: 'center',  flexWrap: 'wrap'}} > 
+      <h1 style={{textAlign: 'center', margin: 0, paddingTop: '3rem', color: 'white', backgroundColor: '#3F51B5'}}>Mis trabajos de desarrollo web</h1>
+      <div style={{ alignItems: 'center', display: 'flex', alignItems: 'center',  flexWrap: 'wrap'}} className="bg-frontend" > 
       <Button href="https://milenagimenez.github.io/movies-project/" target="blank">  
         <Card style={{maxWidth: 345, margin: '3rem'}}>
           <CardActionArea>

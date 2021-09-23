@@ -6,7 +6,7 @@ import './Welcome.sass';
 
 const Welcome = () => {
     return (
-      <div style={{ display: 'flex', height: '100vh', alignItems: 'center'}} className="bg" >    
+      <div style={{ display: 'flex', height: '100vh', alignItems: 'center'}}  className="bg-welcome"  >    
         <Card style={{ width: '100%', height: '500px', margin: '2%', boxShadow: 'none'}}>
           <CardMedia
             component="img"
