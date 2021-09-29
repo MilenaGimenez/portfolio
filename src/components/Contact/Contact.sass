@@ -3,40 +3,88 @@
     background-repeat: no-repeat
     background-position: center
     background-size: cover
-    border: 1px solid black
+
+.subtitle-contact
+    margin: 0
+    margin-top: -1.5rem
+    font-size: 1.3rem
+    color: #808080
+    font-weight: 600
+
+
+.card-contact
+    background-color: transparent !important
+    box-shadow: none !important
+    /** border: 1px solid violet  **/   
 
 .form-box
-    margin: 1.5rem
-    border: 1px solid red
-    padding: 3%
+    /** border: 1px solid red **/
 
 .input-box
     display: flex
     justify-content: center
     align-items: center
+    margin: 2rem
 
 label
     padding: 1rem
+    font-size: 1.5rem
+    color: #808080
 
 input    
     height: 1.5rem
-    border-radius: 10px
-    border: 1px solid gray
+    outline: none
+    border: none
+    border-bottom: 2px solid #808080
+    font-size: 1.3rem
+
+input:active
+    border-bottom: 2px solid #b30000
+
+.select-contact
+    height: 1.5rem
+    outline: none
+    border: none
+    border-bottom: 2px solid #808080
+    font-size: 1rem
 
 .textarea-box
     display: flex
     justify-content: center
-    border: 1px solid green
+    flex-direction: column
+    align-items: center
     width: 100%
 
 textarea
     height: 10rem
     border-radius: 10px
-    border: 1px solid gray
-    width: 100%
+    border: none
+    width: 90%
+    resize: none
+    outline: none
+    font-size: 1.3rem
+    padding: 10px
+    background-color: rgba(255, 255, 255, 0.692)
+    border: 2px solid #808080
+    font-family: Arial, Helvetica, sans-serif
+
+.submit-btn
+    border: none
+    background-color: #FF9A28
+    padding: 1.5rem
+    border-radius: 10px
+    color: white
+    font-size: 1.5rem
+    font-weight: 600
+    margin: 2rem
+    cursor: pointer
+    transition: 0.5s
+
+.submit-btn:hover
+    background-color: #e77f07
+    transition: 0.5s
 
 @media only screen and (min-width: 1025px) 
   .card-contact
     width: 70% !important
-    border: 1px solid pink
   
